@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>To-do-list</title>
+</head>
+
+<body>
+    <div id="my-div" class="container"> 
+        <!-- <img src="./img/rainbow-background.jpg" alt="" width="100%">   -->
+        <header>Todo List</header>
+        <span class="list-check-icon"><i class="fas fa-list-check"></i></span>
+        
+        <div class="todo-input">
+            <input type="text" id="my-input" placeholder="Enter the task here">
+            <button class="add-btn"><i class="fa fa-plus"></i></button>    
+        </div>
+
+        <ul id="my-ul" class="todo-list">
+            <li>task1<span class="icon"><i class="fa-solid fa-trash-can"></i><i class="fa fa-edit"></i></span></li>
+            <li>task2<span class="icon"><i class="fa-solid fa-trash-can"></i><i class="fa fa-edit"></i></span></li>
+            <li>task3<span class="icon"><i class="fa-solid fa-trash-can"></i><i class="fa fa-edit"></i></span></li>
+            
+            <!-- <i class="bi bi-trash3"></i> -->
+        </ul>
+
+        <div class="todo-info">
+            <span class="info-txt">You have <span class="pendingTasks"></span> pending tasks.</span>
+            <br>
+            <button class="removeAll-btn">Remove all</button>
+        </div>
+    </div>
+</body>
+</html>
