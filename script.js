@@ -3,16 +3,13 @@ const inputText = document.querySelector(".todo-input input");
 const todoList = document.querySelector(".todo-list");
 const removeAllBtn=document.querySelector(".removeAll-btn");
 
-//const removeAllBtn = document.querySelector(".todo-info button .removeAll-btn");
-
-var editInput = document.createElement("input");
-var editLi = document.createElement("li");
-editInput.type = "text";
-editLi.innerText = "Edit";
-editLi.classList = "edit";
-
-todoList.appendChild(editInput);
-todoList.appendChild(editLi);
+// var editInput = document.createElement("input");
+// var editLi = document.createElement("li");
+// editInput.type = "text";
+// editLi.innerText = "Edit";
+// editLi.classList = "edit";
+// todoList.appendChild(editInput);
+// todoList.appendChild(editLi);
 
 
 let todoArray=[];

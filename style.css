@@ -16,7 +16,6 @@ body
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to right, #c0dff8, #90c6f8);
-    /* background-image: url('rainbow-background.jpg'); */
 }
 
 .container
@@ -65,11 +64,6 @@ input:focus
     color: #fff;
 }
 
-/* ::placeholder pseudo-element
-{
-    font-size: 13px;
-} */
-
 ::placeholder 
 {
     font-size: 14px;
@@ -84,7 +78,6 @@ input:focus
     transition: all 0.1s ease;
     opacity: 0.6;
     font-size: 20px;
-    /* pointer-events: none; */
 }
 
 .todo-input button
@@ -136,7 +129,6 @@ input:focus
     right: -45px;
     top: 50%;
     width: 45px;
-    /* height: 90px; */
     color: #fff;
     background-color: #ffc8dd;
     transform: translateY(-50%);
@@ -145,7 +137,6 @@ input:focus
     cursor: pointer;
     transition: all 0.3s ease;
     padding: 10px 0px;
-   
     /* align-content: space-between; */
 }
 
@@ -174,20 +165,6 @@ ul li.checked::before
     height: 15px;
     width: 7px;
 }
-
-/* .close 
-{
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 12px 16px 12px 16px;
-}
-  
-.close:hover 
-{
-    background-color: #f44336;
-    color: white;
-} */
   
 .todo-info
 {
@@ -208,7 +185,6 @@ ul li.checked::before
     opacity: 0.6;
     font-size: 14.3px;
     font-weight:549;
-    
     /* pointer-events: auto; */
 }
 
